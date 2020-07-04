@@ -20,14 +20,14 @@ public class BOJ9093 {
             String str = br.readLine() + "\n";
             Stack<Character> stack = new Stack<>();
 
-            for (char ch : str.toCharArray()) {
-                if (ch == '\n' || ch == ' ') {
-                    while (!stack.isEmpty()) {
-                        bw.write(stack.pop());
+            for (char ch : str.toCharArray()) { // 문자열을 캐릭터형 배열로 바꿔서 하나씩 접근
+                if (ch == '\n' || ch == ' ') { // 한 문자가 줄바꿈 혹은 공백이라면
+                    while (!stack.isEmpty()) { // 스택이 비워지지 않을 때 까지 반복
+                        bw.write(stack.pop()); // 하나씩 꺼내기
                     }
-                    bw.write(ch);
+                    bw.write(ch); // 공백 혹은 띄어쓰기 작성
                 } else {
-                    stack.push(ch);
+                    stack.push(ch); // 그게 아니라면 넣기
                 }
 
             }
