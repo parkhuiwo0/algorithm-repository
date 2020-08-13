@@ -1,4 +1,4 @@
-package lecture;
+package lecture.dataStructure;
 
 import java.io.*;
 import java.util.Stack;
