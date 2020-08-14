@@ -8,24 +8,26 @@ import java.util.Scanner;
  * Date: 2020/08/13
  * Time: 2:31 오후
  */
+// Bottom Up
 public class BOJ1463 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
 
-        int[] d = new int[n+1];
-        d[1] = 0;
-        for (int i=2; i<=n; i++) {
-            d[i] = d[i-1] + 1;   // n-1
+        int memorization[] = new int[n + 1];
+        memorization[1] = 0;
+        for (int i = 2; i<=n; i++) {
+            memorization[i] = memorization[i-1] + 1;
 
-            if (i%2 == 0 && d[i] > d[i/2] +1) {
-                d[i] = d[i/2] +1;  // n/2
+            if (i%2 == 0 && memorization[i] > memorization[i/2] + 1) {
+                memorization[i] = memorization[i/2] + 1;
             }
-            if (i%3 == 0 && d[i] > d[i/3] +1) {
-                d[i] = d[i/3] +1;  // n/3
+
+            if (i%3 == 0 && memorization[i] > memorization[i/3] + 1) {
+                memorization[i] = memorization[i/3] + 1;
             }
         }
-        System.out.println(d[n]);
+        System.out.println(memorization[n]);
     }
 }
