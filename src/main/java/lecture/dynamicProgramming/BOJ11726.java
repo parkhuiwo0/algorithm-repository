@@ -1,6 +1,7 @@
 package lecture.dynamicProgramming;
 
-import java.io.*;
+import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * acmicpc.net/problem/11726 [2xN 타일링]
@@ -12,22 +13,16 @@ import java.io.*;
  */
 public class BOJ11726 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int n;
-        n = Integer.parseInt(br.readLine());
-
-        int[] memorization = new int[n+1];
-        memorization[0] = 1;
-        memorization[1] = 1;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] d = new int[n+1];
+        d[0] = 1;
+        d[1] = 1;
 
         for (int i =2; i<=n; i++) {
-            memorization[i] = memorization[i-1] + memorization[i-2];
-            memorization[i] %= 10007;
+            d[i] = (d[i-1] + d[i-2])%10007;
         }
 
-        System.out.println(memorization[n]);
-
+        System.out.print(d[n]);
     }
-
 }
