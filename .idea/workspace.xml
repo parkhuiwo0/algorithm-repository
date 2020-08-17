@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d7b80b-bd9d-4ba4-a424-a4d8ef8fb49d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/dynamicProgramming/BOJ16194.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/dynamicProgramming/BOJ15990.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <workItem from="1597193036979" duration="1300000" />
       <workItem from="1597281560296" duration="10572000" />
       <workItem from="1597366366915" duration="13642000" />
-      <workItem from="1597639866591" duration="8219000" />
+      <workItem from="1597639866591" duration="8547000" />
     </task>
     <servers />
   </component>
