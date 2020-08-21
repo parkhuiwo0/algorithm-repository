@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d7b80b-bd9d-4ba4-a424-a4d8ef8fb49d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lecture/dynamicProgramming/BOJ10844.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lecture/dynamicProgramming/BOJ15990.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecture/dynamicProgramming/BOJ15990.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +43,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.BOJ15990">
-    <configuration name="BOJ11052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.dynamicProgramming.BOJ11052" />
+  <component name="RunManager" selected="Application.BOJ10844">
+    <configuration name="BOJ10844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.dynamicProgramming.BOJ10844" />
       <module name="algorithms.main" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ11726" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.dynamicProgramming.BOJ11726" />
+    <configuration name="BOJ11052" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.dynamicProgramming.BOJ11052" />
       <module name="algorithms.main" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ10844" />
         <item itemvalue="Application.BOJ15990" />
         <item itemvalue="Application.BOJ11052" />
         <item itemvalue="Application.BOJ9095" />
         <item itemvalue="Application.BOJ11727" />
-        <item itemvalue="Application.BOJ11726" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +140,7 @@
       <workItem from="1597724513221" duration="2883000" />
       <workItem from="1597748287546" duration="28000" />
       <workItem from="1597799498905" duration="3369000" />
+      <workItem from="1597969113993" duration="2468000" />
     </task>
     <servers />
   </component>
