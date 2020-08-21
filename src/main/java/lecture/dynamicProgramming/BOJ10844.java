@@ -11,7 +11,6 @@ import java.util.Scanner;
  */
 public class BOJ10844 {
     final static long mod = 1000000000L;
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
